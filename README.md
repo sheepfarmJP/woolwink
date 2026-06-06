@@ -29,7 +29,7 @@ Unsigned for now — Windows SmartScreen may warn on first run (*More info → R
 - **Buy once: $29 / ¥3,980** — yours forever, 1 year of updates, no subscription.
 - 🎉 **Launch offer:** use code **`LAUNCH`** at checkout → **$19 / ¥2,980** (first 100 buyers).
 
-A license is bound to one PC. After purchase your code is emailed within minutes; paste it in the app's **License** screen. (You'll be asked for your Device ID at checkout — copy it from that screen first.)
+A license is bound to one PC. After purchase your code is emailed within minutes — **if you don't see it, check your spam/Promotions folder** — then paste it in the app's **License** screen. (You'll be asked for your Device ID at checkout — copy it from that screen first.)
 
 ## Privacy & legal
 

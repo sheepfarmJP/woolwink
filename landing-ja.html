@@ -1,10 +1,10 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ja">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Woolwink 窶・隕九※縲∬ｨ翫￥縲・/title>
-<meta name="description" content="1繧ｭ繝ｼ縺ｧ縲√せ繧ｯ繧ｷ繝ｧ縺ｨ螢ｰ縺後ｂ縺・I縺ｮ繝√Ε繝・ヨ縺ｮ荳ｭ縲ゅ☆縺ｹ縺ｦPC蜀・〒螳檎ｵ舌∽ｽ輔ｂ繧｢繝・・縺励∪縺帙ｓ縲８indows縲・laude繝ｻChatGPT繝ｻGemini 縺ｫ蟇ｾ蠢懊・>
+<title>Woolwink — 見て、訊く。</title>
+<meta name="description" content="1キーで、スクショと声がもうAIのチャットの中。すべてPC内で完結、何もアップしません。Windows。Claude・ChatGPT・Gemini に対応。">
 <style>
   :root{--bg:#0b0b12;--card:rgba(255,255,255,.04);--brd:rgba(255,255,255,.09);--txt:#ececf5;--muted:#9a9ab0;--a1:#7c8cff;--a2:#b06cff;--good:#56e39f}
   *{box-sizing:border-box}body{margin:0;font-family:"Segoe UI Variable","Segoe UI","Yu Gothic UI",system-ui,sans-serif;background:var(--bg);color:var(--txt);-webkit-font-smoothing:antialiased}
@@ -37,7 +37,7 @@
   .tier.pro{border-color:var(--a1);box-shadow:0 0 0 1px rgba(124,140,255,.3),0 14px 40px rgba(124,140,255,.18)}
   .tier .p{font-size:32px;font-weight:800;margin:8px 0}.tier .was{color:var(--muted);text-decoration:line-through;font-size:15px}
   .tier ul{list-style:none;padding:0;margin:14px 0 0;text-align:left;color:var(--muted);font-size:14px;line-height:2}
-  .tier li::before{content:"笨・";color:var(--good)}
+  .tier li::before{content:"✓ ";color:var(--good)}
   details{background:var(--card);border:1px solid var(--brd);border-radius:12px;padding:14px 18px;margin:10px 0}
   summary{cursor:pointer;font-weight:600}details p{color:var(--muted);line-height:1.8;margin:10px 0 0}
   footer{color:var(--muted);font-size:12.5px;text-align:center;padding:40px 0;line-height:1.9;border-top:1px solid var(--brd);margin-top:30px}
@@ -47,80 +47,79 @@
 <body>
 <div class="wrap">
   <header>
-    <div class="brand"><div class="logo">髄</div>Woolwink</div>
-    <a class="lang" href="./landing.en.html">English</a>
+    <div class="brand"><div class="logo"><img src="assets/woolwink_256.png" alt="" style="width:100%;height:100%;object-fit:cover;border-radius:12px"></div>Woolwink</div>
+    <a class="lang" href="index.html">English</a>
   </header>
 
   <div class="hero">
-    <div class="pills"><span class="pill">Windows</span><span class="pill">100%繝ｭ繝ｼ繧ｫ繝ｫ</span><span class="pill">Claude繝ｻChatGPT繝ｻGemini</span></div>
-    <h1>1繧ｭ繝ｼ縺ｧ縲√≠縺ｪ縺溘・逕ｻ髱｢縺・br><span class="grad">繧ゅ≧AI縺ｮ繝√Ε繝・ヨ縺ｮ荳ｭ縺ｫ縲・/span></h1>
-    <p class="sub">繧ｭ繝ｼ繧呈款縺吶□縺代８oolwink縺後せ繧ｯ繧ｷ繝ｧ・医→縲∝｣ｰ繧呈枚蟄苓ｵｷ縺薙＠縺励◆繧ゅ・・峨ｒ縲，laude繝ｻChatGPT繝ｻGemini 縺ｫ縺昴・縺ｾ縺ｾ蜈･繧後∪縺吶・b>縺吶∋縺ｦ縺ゅ↑縺溘・PC蜀・らｧ√◆縺｡縺ｫ縺ｯ菴輔ｂ騾√ｉ繧後∪縺帙ｓ縲・/b></p>
+    <div class="pills"><span class="pill">Windows</span><span class="pill">100%ローカル</span><span class="pill">Claude・ChatGPT・Gemini</span></div>
+    <h1>1キーで、あなたの画面が<br><span class="grad">もうAIのチャットの中に。</span></h1>
+    <p class="sub">キーを押すだけ。Woolwinkがスクショ（と、声を文字起こししたもの）を、Claude・ChatGPT・Gemini にそのまま入れます。<b>すべてあなたのPC内。私たちには何も送られません。</b></p>
     <div class="ctas">
-      <a class="cta" href="https://github.com/sheepfarmJP/woolwink/releases/latest">竊・Windows迚医ｒ蜈･謇具ｼ・4譌･髢鍋┌譁呻ｼ・/a>
-      <a class="cta ghost" href="#how">菴ｿ縺・婿繧定ｦ九ｋ</a>
+      <a class="cta" href="https://github.com/sheepfarmJP/woolwink/releases/latest">↓ Windows版を入手（14日間無料）</a>
+      <a class="cta ghost" href="#how">使い方を見る</a>
     </div>
-    <div class="note">14譌･髢薙☆縺ｹ縺ｦ辟｡譁・繝ｻ 騾壼ｸｸﾂ･3,980 竊・<b>逋ｺ螢ｲ險伜ｿｵ ﾂ･2,980</b>・医さ繝ｼ繝・<b>LAUNCH</b>繝ｻ蜈育捩100蜷阪・6/21縺ｾ縺ｧ・峨・ 繧ｵ繝悶せ繧ｯ縺ｪ縺・/div>
+    <div class="note">14日間すべて無料 ・ 通常¥3,980 → <b>発売記念 ¥2,980</b>（コード <b>LAUNCH</b>・先着100名・6/21まで）・ サブスクなし</div>
   </div>
 
   <section id="how">
-    <h2>逕ｻ髱｢縺九ｉ蝗樒ｭ斐∪縺ｧ縲√Ρ繝ｳ繧ｭ繝ｼ</h2>
-    <p class="lead">縲後せ繧ｯ繧ｷ繝ｧ竊偵ヵ繧｡繧､繝ｫ繧呈爾縺吮・繝峨Λ繝・げ竊偵ラ繝ｭ繝・・竊貞・蜉帙阪・繧ゅ≧荳崎ｦ√・繧ｭ繝ｼ縺ｧ蜈ｨ驛ｨ邨ゅｏ繧翫∪縺吶・/p>
+    <h2>画面から回答まで、ワンキー</h2>
+    <p class="lead">「スクショ→ファイルを探す→ドラッグ→ドロップ→入力」はもう不要。1キーで全部終わります。</p>
     <div class="grid">
-      <div class="feat"><h3>1 繝ｻ 繝帙ャ繝医く繝ｼ繧呈款縺・/h3><p>蜈ｨ逕ｻ髱｢繝ｻ繝峨Λ繝・げ遽・峇繝ｻ遏ｭ縺・鹸逕ｻ繝ｻ髟ｷ縺・せ繧ｯ繝ｭ繝ｼ繝ｫ繝壹・繧ｸ繧呈聴蠖ｱ縲・/p></div>
-      <div class="feat"><h3>2 繝ｻ 遒ｺ隱搾ｼ・ｳｨ驥・/h3><p>遒ｺ隱咲判髱｢縺ｧ陦ｨ遉ｺ縲よｩ溷ｯ・ｒ縺ｼ縺九☆・丈ｸｸ繝ｻ遏｢蜊ｰ・上Γ繝｢縲∝｣ｰ縺ｧ雉ｪ蝠擾ｼ医Ο繝ｼ繧ｫ繝ｫ髻ｳ螢ｰ竊呈枚蟄暦ｼ峨ｂ縲・/p></div>
-      <div class="feat"><h3>3 繝ｻ 繧ゅ≧AI縺ｮ荳ｭ</h3><p>縺ゅ↑縺溘・Claude・修hatGPT・秀emini・医ョ繧ｹ繧ｯ繝医ャ繝・or 繝悶Λ繧ｦ繧ｶ・峨↓縲∬・蛻・・繧｢繧ｫ繧ｦ繝ｳ繝医〒縺昴・縺ｾ縺ｾ謖ｿ蜈･縲・/p></div>
+      <div class="feat"><h3>1 ・ ホットキーを押す</h3><p>全画面・ドラッグ範囲・短い録画・長いスクロールページを撮影。</p></div>
+      <div class="feat"><h3>2 ・ 確認＆注釈</h3><p>確認画面で表示。機密をぼかす／丸・矢印／メモ、声で質問（ローカル音声→文字）も。</p></div>
+      <div class="feat"><h3>3 ・ もうAIの中</h3><p>あなたのClaude／ChatGPT／Gemini（デスクトップ or ブラウザ）に、自分のアカウントでそのまま挿入。</p></div>
     </div>
   </section>
 
   <section>
-    <h2>蜈ｨ驛ｨ縲√≠縺ｪ縺溘・PC縺ｮ荳ｭ縺ｧ</h2>
+    <h2>全部、あなたのPCの中で</h2>
     <div class="grid">
-      <div class="feat"><h3>白 100%繝ｭ繝ｼ繧ｫ繝ｫ蜃ｦ逅・/h3><p>謦ｮ蠖ｱ繝ｻOCR繝ｻ髻ｳ螢ｰ隱崎ｭ倥☆縺ｹ縺ｦPC蜀・らｧ√◆縺｡縺ｫ繧ｵ繝ｼ繝舌・辟｡縺上√≠縺ｪ縺溘・繝・・繧ｿ繧剃ｸ蛻・女縺大叙繧翫∪縺帙ｓ縲ょ､夜Κ騾壻ｿ｡縺ｯ縲御ｻｻ諢上・譖ｴ譁ｰ遒ｺ隱阪阪→縲窟I繝｢繝・Ν縺ｮ蛻晏屓繝繧ｦ繝ｳ繝ｭ繝ｼ繝峨阪□縺代〒縲√←縺｡繧峨ｂ縺ゅ↑縺溘・逕ｻ髱｢繝ｻ髻ｳ螢ｰ繝ｻ譁・ｭ励ｒ騾√ｊ縺ｾ縺帙ｓ縲・/p></div>
-      <div class="feat"><h3>竢ｪ 10蛻・ｷｻ縺肴綾縺・/h3><p>RAM縺縺代・莉ｻ諢上ヰ繝・ヵ繧｡縺ｧ縲・℃縺弱◆迸ｬ髢薙ｒ蠕後°繧牙叙蠕励ゆｻ悶↓縺ｯ縺ｪ縺・ｩ溯・縺ｧ縺吶・/p></div>
-      <div class="feat"><h3>児 繝ｭ繝ｼ繧ｫ繝ｫ髻ｳ螢ｰ</h3><p>蜈･蜉帙・莉｣繧上ｊ縺ｫ隧ｱ縺吶□縺代８hisper縺ｧ遶ｯ譛ｫ蜀・枚蟄苓ｵｷ縺薙＠縺励※雉ｪ蝠乗ｬ・∈縲・/p></div>
-      <div class="feat"><h3>糖 繧ｹ繧ｯ繝ｭ繝ｼ繝ｫ謦ｮ蠖ｱ</h3><p>髟ｷ縺・・繝ｼ繧ｸ繧定・蜍輔せ繧ｯ繝ｭ繝ｼ繝ｫ縺励※邵ｦ髟ｷ1譫壹↓騾｣邨舌・/p></div>
-      <div class="feat"><h3>筈 OCR・・・蜍輔⊂縺九＠</h3><p>逕ｻ髱｢縺ｮ譁・ｭ励ｒ謚ｽ蜃ｺ縲る∽ｿ｡蜑阪↓繝｡繝ｼ繝ｫ/繧ｭ繝ｼ/繧ｫ繝ｼ繝臥分蜿ｷ繧定・蜍輔〒縺ｼ縺九☆縲・/p></div>
-      <div class="feat"><h3>ｪ・繝槭Ν繝、I繝ｻ繝槭Ν繝√Δ繝九ち</h3><p>Claude/ChatGPT/Gemini縲√ョ繧ｹ繧ｯ繝医ャ繝励ｂ繝悶Λ繧ｦ繧ｶ繧ゅよ聴繧九Δ繝九ち繧る∈謚槭・險隱槫ｯｾ蠢懊・/p></div>
+      <div class="feat"><h3>🔒 100%ローカル処理</h3><p>撮影・OCR・音声認識すべてPC内。私たちにサーバは無く、あなたのデータを一切受け取りません。外部通信は「任意の更新確認」と「AIモデルの初回ダウンロード」だけで、どちらもあなたの画面・音声・文字を送りません。</p></div>
+      <div class="feat"><h3>⏪ 10分巻き戻し</h3><p>RAMだけの任意バッファで、過ぎた瞬間を後から取得。他にはない機能です。</p></div>
+      <div class="feat"><h3>🎙 ローカル音声</h3><p>入力の代わりに話すだけ。Whisperで端末内文字起こしして質問欄へ。</p></div>
+      <div class="feat"><h3>📜 スクロール撮影</h3><p>長いページを自動スクロールして縦長1枚に連結。</p></div>
+      <div class="feat"><h3>🔤 OCR＆自動ぼかし</h3><p>画面の文字を抽出。送信前にメール/キー/カード番号を自動でぼかす。</p></div>
+      <div class="feat"><h3>🪟 マルチAI・マルチモニタ</h3><p>Claude/ChatGPT/Gemini、デスクトップもブラウザも。撮るモニタも選択。8言語対応。</p></div>
     </div>
   </section>
 
   <section>
     <div class="privacy">
-      <h2>繝励Λ繧､繝舌す繝ｼ縺ｯ窶懈ｩ溯・窶昴〒縺ｯ縺ｪ縺上∫岼逧・◎縺ｮ繧ゅ・縲・/h2>
-      <p>Woolwink縺ｯ螳悟・縺ｫ縺ゅ↑縺溘・PC蜀・〒蜍穂ｽ懊＠縺ｾ縺吶ら判髱｢縺ｨ螢ｰ縺ｯ遶ｯ譛ｫ蜀・〒蜃ｦ逅・＆繧後・b>縺ゅ↑縺溯・霄ｫ縺ｮ</b>AI繧｢繝励Μ縺ｫ貂｡縺輔ｌ繧九□縺代らｧ√◆縺｡縺ｮ繧ｵ繝ｼ繝舌ｒ騾壹ｋ縺薙→縺ｯ豎ｺ縺励※縺ゅｊ縺ｾ縺帙ｓ窶披斐◎繧ゅ◎繧ゅし繝ｼ繝舌′辟｡縺・°繧峨〒縺吶る浹螢ｰ繝｢繝・Ν縺ｯ蛻晏屓縺縺践ugging Face縺九ｉ蜿門ｾ励＠縲√◎縺ｮ蠕後・菴輔ｂPC縺ｮ螟悶↓蜃ｺ縺ｾ縺帙ｓ縲・/p>
+      <h2>プライバシーは“機能”ではなく、目的そのもの。</h2>
+      <p>Woolwinkは完全にあなたのPC内で動作します。画面と声は端末内で処理され、<b>あなた自身の</b>AIアプリに渡されるだけ。私たちのサーバを通ることは決してありません——そもそもサーバが無いからです。音声モデルは初回だけHugging Faceから取得し、その後は何もPCの外に出ません。</p>
     </div>
   </section>
 
   <section>
-    <h2>繧ｷ繝ｳ繝励Ν縺ｪ萓｡譬ｼ</h2>
-    <p class="lead">14譌･髢薙√☆縺ｹ縺ｦ縺ｮ讖溯・繧堤┌譁吶〒縲よｰ励↓蜈･縺｣縺溘ｉ荳蠎ｦ縺阪ｊ縺ｮ雋ｷ縺・・繧岩披斐≠縺ｪ縺溘′遏･縺｣縺ｦ繧句ｮ夂分繝・・繝ｫ繧医ｊ螳峨￥縲・/p>
+    <h2>シンプルな価格</h2>
+    <p class="lead">14日間、すべての機能を無料で。気に入ったら一度きりの買い切り——あなたが知ってる定番ツールより安く。</p>
     <div class="price">
       <div class="tier">
-        <h3>14譌･髢・辟｡譁吶ヨ繝ｩ繧､繧｢繝ｫ</h3><div class="p">ﾂ･0</div>
-        <ul><li>蜈ｨ讖溯・繧・4譌･髢薙ヵ繝ｫ縺ｫ</li><li>謦ｮ蠖ｱ繝ｻ鬆伜沺繝ｻ骭ｲ逕ｻ繝ｻ繧ｹ繧ｯ繝ｭ繝ｼ繝ｫ</li><li>繝ｭ繝ｼ繧ｫ繝ｫ髻ｳ螢ｰ竊呈枚蟄励・OCR繝ｻ閾ｪ蜍輔⊂縺九＠</li><li>Claude/ChatGPT/Gemini 縺ｸ謖ｿ蜈･</li><li>繧｢繧ｫ繧ｦ繝ｳ繝井ｸ崎ｦ√・100%繝ｭ繝ｼ繧ｫ繝ｫ</li></ul>
+        <h3>14日間 無料トライアル</h3><div class="p">¥0</div>
+        <ul><li>全機能を14日間フルに</li><li>撮影・領域・録画・スクロール</li><li>ローカル音声→文字・OCR・自動ぼかし</li><li>Claude/ChatGPT/Gemini へ挿入</li><li>アカウント不要・100%ローカル</li></ul>
       </div>
       <div class="tier pro">
-        <h3>雋ｷ縺・・繧奇ｼ域ｰｸ荵・ｼ・/h3><div class="was">騾壼ｸｸ ﾂ･3,980 繝ｻ CleanShot X $29 繝ｻ Snagit $39</div><div class="p">ﾂ･2,980<span style="font-size:14px;color:#8b8b9c"> 逋ｺ螢ｲ險伜ｿｵ・医さ繝ｼ繝・LAUNCH・・/span></div>
-        <ul><li>繝医Λ繧､繧｢繝ｫ縺ｮ蜈ｨ讖溯・繧偵★縺｣縺ｨ</li><li>繝輔Ν10蛻・・蟾ｻ縺肴綾縺・/li><li>繧ｭ繝｣繝励メ繝｣螻･豁ｴ繧呈ｰｸ邯壻ｿ晏ｭ・/li><li>1蟷ｴ蛻・・繧｢繝・・繝・・繝郁ｾｼ縺ｿ</li><li>雋ｷ縺｣縺溽沿縺ｯ豌ｸ荵・↓蜍穂ｽ懶ｼ医し繝悶せ繧ｯ辟｡縺暦ｼ・/li></ul>
-        <a class="cta" style="margin-top:18px" href="https://buy.stripe.com/cNi4gA2c87bLc240iXbII00">雉ｼ蜈･・医さ繝ｼ繝・LAUNCH 縺ｧﾂ･2,980・・/a>
+        <h3>買い切り（永久）</h3><div class="was">通常 ¥3,980 ・ CleanShot X $29 ・ Snagit $39</div><div class="p">¥2,980<span style="font-size:14px;color:#8b8b9c"> 発売記念（コード LAUNCH）</span></div>
+        <ul><li>トライアルの全機能をずっと</li><li>フル10分の巻き戻し</li><li>キャプチャ履歴を永続保存</li><li>1年分のアップデート込み</li><li>買った版は永久に動作（サブスク無し）</li></ul>
+        <a class="cta" style="margin-top:18px" href="https://buy.stripe.com/cNi4gA2c87bLc240iXbII00">購入（コード LAUNCH で¥2,980）</a>
       </div>
     </div>
-    <div class="note" style="text-align:center">豎ｺ貂育判髱｢縺ｧ繧ｳ繝ｼ繝・<b>LAUNCH</b> 繧貞・蜉・竊・ﾂ･2,980 / $19・磯壼ｸｸ ﾂ･3,980 / $29・峨ょ・逹100蜷阪・6/21縺ｾ縺ｧ縲ゅし繝悶せ繧ｯ縺ｪ縺励・繧｢繧ｫ繧ｦ繝ｳ繝井ｸ崎ｦ√・/div>
+    <div class="note" style="text-align:center">決済画面でコード <b>LAUNCH</b> を入力 → ¥2,980 / $19（通常 ¥3,980 / $29）。先着100名・6/21まで。サブスクなし・アカウント不要。</div>
   </section>
 
   <section>
-    <h2>繧医￥縺ゅｋ雉ｪ蝠・/h2>
-    <details><summary>繝・・繧ｿ縺ｯ縺ゅ↑縺溘・繧ｵ繝ｼ繝舌↓騾√ｉ繧後∪縺吶°・・/summary><p>縺・＞縺医８oolwink縺ｫ繧ｵ繝ｼ繝舌ｂ繧｢繧ｫ繧ｦ繝ｳ繝医ｂ縺ゅｊ縺ｾ縺帙ｓ縲ゅ☆縺ｹ縺ｦPC蜀・〒蜍輔″縺ｾ縺吶る∽ｿ｡縺励◆繧ゅ・縺ｯ<i>縺ゅ↑縺溯・霄ｫ縺ｮ</i>AI繧｢繝励Μ・医≠縺ｪ縺溘・繧ｵ繝悶せ繧ｯ・峨↓蜈･繧九□縺代〒縲∬・蛻・〒雋ｼ繧贋ｻ倥￠縺溘・縺ｨ蜷後§縺ｧ縺吶・/p></details>
-    <details><summary>縺ｩ縺・ｄ縺｣縺ｦAI縺ｫ蜈･繧後※縺・ｋ縺ｮ・・/summary><p>蟇ｾ雎｡繧｢繝励Μ/繧ｿ繝悶ｒ蜑埼擇縺ｫ縺励※縲∝・蜉帶ｬ・↓雋ｼ繧贋ｻ倥￠縺ｾ縺呻ｼ郁ｶ・ｫ倬溘・繧ｳ繝斐・縺ｮ繧医≧縺ｪ繧ゅ・・峨ょｯｾ雎｡縺ｯ逕ｻ髱｢縺ｫ隕九∴縺ｦ縺・ｋ蠢・ｦ√′縺ゅｊ縺ｾ縺吶ゅヶ繝ｩ繧ｦ繧ｶ騾∽ｿ｡蜈医・窶懆ｲｼ繧九□縺鯛昴〒縲・nter縺ｯ縺ゅ↑縺溘′謚ｼ縺励∪縺吶・/p></details>
-    <details><summary>縺ｩ縺ｮAI縺ｫ蟇ｾ蠢懶ｼ・/summary><p>Claude繝ｻChatGPT繝ｻGemini・医ョ繧ｹ繧ｯ繝医ャ繝励い繝励Μ繧ゅヶ繝ｩ繧ｦ繧ｶ繧ｿ繝悶ｂ・会ｼ九き繧ｹ繧ｿ繝謖・ｮ壹ゅ≠縺ｪ縺溘・繝ｭ繧ｰ繧､繝ｳ貂医∩繧｢繧ｫ繧ｦ繝ｳ繝医ｒ菴ｿ縺・∪縺吶・/p></details>
-    <details><summary>閾ｪ蛻・・險隱槭〒OCR縺ｯ豁｣遒ｺ・・/summary><p>OCR縺ｯWindows讓呎ｺ悶お繝ｳ繧ｸ繝ｳ繧剃ｽｿ縺・・縺ｧ縲仝indows縺ｮ險隱槭ヱ繝・け縺悟・縺｣縺ｦ縺・ｋ險隱橸ｼ磯壼ｸｸ縺ｯ陦ｨ遉ｺ險隱橸ｼ峨〒豁｣遒ｺ縺ｧ縺吶ょｰ主・貂医∩險隱槭・繝繝・す繝･繝懊・繝峨↓陦ｨ遉ｺ縺輔ｌ縺ｾ縺吶・/p></details>
+    <h2>よくある質問</h2>
+    <details><summary>データはあなたのサーバに送られますか？</summary><p>いいえ。Woolwinkにサーバもアカウントもありません。すべてPC内で動きます。送信したものは<i>あなた自身の</i>AIアプリ（あなたのサブスク）に入るだけで、自分で貼り付けたのと同じです。</p></details>
+    <details><summary>どうやってAIに入れているの？</summary><p>対象アプリ/タブを前面にして、入力欄に貼り付けます（超高速のコピペのようなもの）。対象は画面に見えている必要があります。ブラウザ送信先は“貼るだけ”で、Enterはあなたが押します。</p></details>
+    <details><summary>どのAIに対応？</summary><p>Claude・ChatGPT・Gemini（デスクトップアプリもブラウザタブも）＋カスタム指定。あなたのログイン済みアカウントを使います。</p></details>
+    <details><summary>自分の言語でOCRは正確？</summary><p>OCRはWindows標準エンジンを使うので、Windowsの言語パックが入っている言語（通常は表示言語）で正確です。導入済み言語はダッシュボードに表示されます。</p></details>
   </section>
 
   <footer>
-    ChatGPT繝ｻGemini繝ｻClaude 縺ｯ蜷・､ｾ縺ｮ蝠・ｨ吶〒縺吶８oolwink縺ｯ迢ｬ遶九＠縺溘ヤ繝ｼ繝ｫ縺ｧ縺ゅｊ縲＾penAI繝ｻGoogle繝ｻAnthropic 縺ｨ<b>謠先声繝ｻ謇ｿ隱阪・蠕梧抄髢｢菫ゅ↓縺ゅｊ縺ｾ縺帙ｓ</b>縲・br>
-    ﾂｩ 2026 sheepfarmJP ﾂｷ <a class="lang" href="index.html">English</a> · <a class="lang" href="https://github.com/sheepfarmJP/woolwink">GitHub</a> ﾂｷ <a class="lang" href="mailto:germantiger16@gmail.com">縺雁撫縺・粋繧上○</a>
+    ChatGPT・Gemini・Claude は各社の商標です。Woolwinkは独立したツールであり、OpenAI・Google・Anthropic と<b>提携・承認・後援関係にありません</b>。<br>
+    © 2026 sheepfarmJP · <a class="lang" href="index.html">English</a> · <a class="lang" href="https://github.com/sheepfarmJP/woolwink">GitHub</a> · <a class="lang" href="mailto:germantiger16@gmail.com">お問い合わせ</a>
   </footer>
 </div>
 </body>
 </html>
-

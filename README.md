@@ -21,7 +21,7 @@ Press a hotkey → Woolwink grabs your screen (or a region, a short recording, a
 
 Get the latest Windows build from the [**Releases**](https://github.com/sheepfarmJP/woolwink/releases/latest) page.
 
-Unsigned for now — Windows SmartScreen may warn on first run (*More info → Run anyway*).
+**First run:** Woolwink is a brand-new independent app, so Windows **SmartScreen** / **Smart App Control** may warn before it builds download reputation — it's 100% local and uploads nothing. On the SmartScreen prompt click **More info → Run anyway**. A verified code signature is being rolled out to remove the warning as reputation builds.
 
 ## Pricing
 

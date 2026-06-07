@@ -1,8 +1,6 @@
 # Woolwink — Terms of Use
 
-Last updated: 2026-06-05
-
-> ⚠️ This is a working draft. **Have it reviewed by qualified counsel before you launch a paid tier or take payment** (especially the Japan consumer-law and Specified Commercial Transactions Act wording).
+Last updated: 2026-06-07
 
 ## 1. Acceptance
 
@@ -21,7 +19,7 @@ These restrictions apply to the developer's own proprietary code and assets. Thi
 
 ## 3. Your responsibilities (important)
 
-When you use the Software to capture your screen, record your voice, and pass them to Claude, **you are solely responsible for obtaining all rights and consents** needed to capture, record, and disclose that content, including but not limited to:
+When you use the Software to capture your screen, record your voice, and pass them to your AI app, **you are solely responsible for obtaining all rights and consents** needed to capture, record, and disclose that content, including but not limited to:
 
 - **Third parties' faces, words, or personal data** visible on screen, and other participants in a video call.
 - **Confidential, NDA, or regulated data** (e.g., health, financial), and **copyrighted or paid content**.
@@ -33,21 +31,22 @@ You will not use the Software for any purpose that violates applicable law.
 
 **Indemnification.** To the maximum extent permitted by applicable law, you agree to indemnify, defend, and hold harmless the developer from and against any third-party claim, demand, loss, liability, damage, cost, or expense (including reasonable legal fees) arising out of or related to (i) your use of the Software, (ii) content you capture, record, or send, or (iii) your violation of these Terms, of applicable law, or of any third party's rights or terms. This does not apply to the extent a loss is caused by the developer's willful misconduct or gross negligence, or to the extent such an obligation cannot lawfully be imposed on a consumer.
 
-## 4. The "Send" action (auto-Enter)
+## 4. The "Insert" / "Send" action and automated input (important)
 
-When you click **"Send,"** the Software — **acting on your explicit action and on your behalf** — pastes the content into the Claude Desktop input box and submits it (presses Enter).
+When you click **"Send,"** the Software — **acting on your explicit action (click or hotkey) and on your behalf** — pastes the content into the input box of the AI app you chose (**Claude / ChatGPT / Gemini**, etc.; desktop app or browser tab) and submits it (presses Enter).
 
-- This is **agency triggered by your explicit click**; the Software performs **no unattended, automatic, or batched sending.**
-- The Software operates **only against your own Claude subscription and your own Claude Desktop.**
-- Your use of Claude / Anthropic is governed by Anthropic's terms.
+- This is **agency triggered by your explicit action**; the Software performs **no unattended, automatic, or batched sending.**
+- The Software operates **only against your own account and your own AI app or tab.**
+- **You assume the risk of automated input/sending.** Although you trigger the "Insert" / "Send" action, the actual input and submission are performed **automatically** by the Software into the AI app's input box. You are responsible for complying with each AI service's terms (Claude / ChatGPT / Gemini, **including any clause on automation, automated input, or bot use**). If your AI account is warned, restricted, suspended, or **banned**, or you suffer any other detriment, as a result of this automated input/sending, **the developer bears no responsibility whatsoever.** Use the Software only if you understand and accept these risks.
+- Your use of each AI service (Anthropic, OpenAI, Google, etc.) is governed by that provider's terms.
 
-## 5. Third-party service (Anthropic)
+## 5. Third-party services (AI providers)
 
-Claude Desktop and its outputs and processing are controlled by Anthropic. The Software is not responsible for their content, availability, or outputs.
+The Claude / ChatGPT / Gemini apps and their outputs and processing are controlled by their respective providers (Anthropic, OpenAI, Google, etc.). The Software is not responsible for their content, availability, or outputs.
 
 ## 6. Not professional advice
 
-Claude's outputs are informational and are **not legal, medical, financial, or other professional advice.**
+AI outputs are informational and are **not legal, medical, financial, or other professional advice.**
 
 ## 7. No warranty (AS-IS)
 
@@ -96,4 +95,4 @@ We may update these Terms. Material changes will be announced.
 - **Entire agreement.** These Terms are the entire agreement between you and the developer regarding the Software.
 - **No waiver.** The developer's failure to enforce a right is not a waiver of that right.
 
-Effective date: 2026-06-05
+Effective date: 2026-06-07

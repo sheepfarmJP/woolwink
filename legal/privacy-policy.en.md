@@ -1,8 +1,6 @@
 # Woolwink — Privacy Policy
 
-Last updated: 2026-06-05
-
-> ⚠️ This is a working draft. **Have it reviewed by qualified counsel before you launch a paid (Pro) tier or take payment.**
+Last updated: 2026-06-07
 
 ## 1. Core principle — Woolwink collects no personal data
 
@@ -27,12 +25,11 @@ The Software connects to the internet in only **two** situations. **Neither send
 
 Beyond these two, the Software makes no outbound connections — no telemetry, analytics, or tracking.
 
-## 3. Hand-off to Claude Desktop (Anthropic)
+## 3. Hand-off to your AI app (Claude / ChatGPT / Gemini)
 
-- The Software passes the content you choose into the input box of **Claude Desktop installed on your own PC**.
-- Once handed off, that content is governed by **Anthropic's privacy policy and terms**. The Software is not a party to that processing.
-  - Anthropic Privacy Policy: https://www.anthropic.com/legal/privacy
-  - Anthropic Consumer Terms: https://www.anthropic.com/legal/consumer-terms
+- The Software passes the content you choose into the input box of **your own AI app** (Claude / ChatGPT / Gemini, desktop app or browser tab) on your own PC.
+- Once handed off, that content is governed by the **privacy policy and terms of the respective AI provider** (Anthropic, OpenAI, Google, etc.). The Software is not a party to that processing.
+  - Example (Anthropic) Privacy Policy: https://www.anthropic.com/legal/privacy / Consumer Terms: https://www.anthropic.com/legal/consumer-terms
 
 ## 4. No sharing with third parties
 
@@ -40,11 +37,16 @@ The developer **receives none of your data and shares nothing** with third parti
 
 ## 5. Permissions (microphone, screen, clipboard)
 
-The Software accesses your microphone, screen capture, and clipboard solely to perform the functions above (on-device processing and hand-off to Claude Desktop). You can change microphone permission anytime in Windows Settings → Privacy → Microphone.
+The Software accesses your microphone, screen capture, and clipboard solely to perform the functions above (on-device processing and hand-off to your AI app). You can change microphone permission anytime in Windows Settings → Privacy → Microphone.
 
-## 6. Future paid (Pro) tier
+## 6. Purchase & license data
 
-When we process payments for the Pro tier, the payment processor **Stripe** will handle your name, email, and payment information (subject to Stripe's privacy policy). To issue and verify your license, we process your email and an **irreversible device ID (a hash)** at purchase. The device ID identifies the machine only and contains none of your screen, voice, or text. We will update this policy to state the **data, purposes, retention, and your rights** at that time.
+When you buy a license, the payment processor **Stripe** handles your name, email, and payment information (subject to Stripe's privacy policy). **Woolwink never receives your card or payment details.** To issue and verify your license, the Software processes only your **email** and an **irreversible device ID (a hash)** at purchase.
+
+- The **device ID** identifies the machine only and contains **none of your screen, voice, or text** (it cannot be reversed back to your machine details).
+- **Purpose:** issuing and delivering your license key, matching it to the purchasing device (to prevent unauthorized copying), and support.
+- **Retention:** kept for as long as needed to verify the validity of your license.
+- **Your rights:** to access, correct, or delete this data, contact us at the address below.
 
 ## 7. Contact
 
@@ -54,4 +56,4 @@ Questions: **germantiger16@gmail.com**
 
 We may update this policy. Material changes will be announced in the Software or on the distribution page.
 
-Effective date: 2026-06-05
+Effective date: 2026-06-07
